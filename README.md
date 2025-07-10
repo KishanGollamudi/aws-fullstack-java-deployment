@@ -35,6 +35,15 @@ This project demonstrates the complete setup of a production-style, scalable AWS
   - Creating user accounts
   - Storing username and password in **MySQL DB**
 
+## 🐱 Apache Tomcat Installation
+
+Apache Tomcat 9 was installed manually on the EC2 instance to deploy and run the Java web application.
+
+📥 The server was downloaded using the following command:
+
+```bash
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.107/bin/apache-tomcat-9.0.107.zip
+```
 ---
 
 ## 🗺️ Architecture Diagram
