@@ -37,3 +37,22 @@ This project demonstrates the complete setup of a production-style, scalable AWS
 
 <img width="972" height="811" alt="Image" src="https://github.com/user-attachments/assets/704f9503-c44f-48e9-b42a-083317bf917b" />
 
+## 📄 Infrastructure as Code
+
+This project uses AWS CloudFormation to provision all resources.
+
+- [View CloudFormation Template](./cloudformation-template.yaml)
+
+To deploy the stack:
+
+```bash
+aws cloudformation create-stack \
+  --stack-name fullstack-java-app \
+  --template-body file://cloudformation-template.yaml \
+  --capabilities CAPABILITY_NAMED_IAM
+
+---
+
+### 🛑 Make Sure to:
+
+- **Remove any hardcoded passwords, secrets, or keys** before uploading.
