@@ -3,6 +3,9 @@
 This project demonstrates the complete setup of a production-style, scalable AWS environment from scratch using VPC networking, EC2 instances, NAT Gateway, RDS, and a Java web application running on Apache Tomcat. It includes secure routing, private-public subnetting, and a full database connection.
 
 ---
+## 🧩 Application Code Source
+📂 The Java application source code used in this project was originally taken from the open-source repository: [Ai-TechNov/aws-rds-java](https://github.com/Ai-TechNov/aws-rds-java.git).  
+🛠️ I have modified the **database schema** and updated the **`pom.xml` file** to better suit the application and deployment requirements of this project.
 
 ## 🔧 Project Architecture
 
