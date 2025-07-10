@@ -56,3 +56,12 @@ aws cloudformation create-stack \
 ### 🛑 Make Sure to:
 
 - **Remove any hardcoded passwords, secrets, or keys** before uploading.
+```
+
+## 📸 CIDR-Screenshots
+VPC CIDR Calculation
+<img width="1275" height="795" alt="Image" src="https://github.com/user-attachments/assets/f4dcab8d-a61c-4b77-b992-c15a4b6009a3" />
+Subnet 1a CIDR
+<img width="1439" height="803" alt="Image" src="https://github.com/user-attachments/assets/caa04813-8b8d-4803-8ee1-c393e9f934e4" />
+Subnet 1b CIDR
+<img width="1369" height="772" alt="Image" src="https://github.com/user-attachments/assets/274f6d5e-0f12-4e97-80e8-87b0a755b791" />
