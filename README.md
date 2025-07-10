@@ -7,8 +7,9 @@ This project demonstrates the complete setup of a production-style, scalable AWS
 ## 🔧 Project Architecture
 
 ### 🔹 VPC & Networking
-- Created a custom **VPC** with a `/16` CIDR block.
-- Configured **2 Public Subnets** and **2 Private Subnets** across two Availability Zones: `us-east-1a` and `us-east-1b`.
+- Created a custom **VPC** with a `10.0.0.0/16` CIDR block.
+- Configured **2 Public Subnets** and **2 Private Subnets** across two Availability Zones:
+-  `us-east-1a - 10.0.0.0/20` and `us-east-1b - 10.0.16.0/20 `.
 - Attached an **Internet Gateway** for public internet access.
 - Created and associated **Route Tables** for public and private subnets.
 - Configured a **NAT Gateway** in a public subnet to provide one-way internet access to private instances.
@@ -45,32 +46,37 @@ This project uses AWS CloudFormation to provision all resources.
 
 To deploy the stack:
 
-```bash
+
 aws cloudformation create-stack \
   --stack-name fullstack-java-app \
   --template-body file://cloudformation-template.yaml \
   --capabilities CAPABILITY_NAMED_IAM
 
----
+
 
 ### 🛑 Make Sure to:
 
 - **Remove any hardcoded passwords, secrets, or keys** before uploading.
-```
+
 
 ## 📸 CIDR-Screenshots
-VPC CIDR Calculation
+
+  # VPC CIDR Calculation
 <img width="1275" height="795" alt="Image" src="https://github.com/user-attachments/assets/f4dcab8d-a61c-4b77-b992-c15a4b6009a3" />
-Subnet 1a CIDR
+  
+  # Subnet 1a CIDR
 <img width="1439" height="803" alt="Image" src="https://github.com/user-attachments/assets/caa04813-8b8d-4803-8ee1-c393e9f934e4" />
-Subnet 1b CIDR
+  
+  # Subnet 1b CIDR
 <img width="1369" height="772" alt="Image" src="https://github.com/user-attachments/assets/274f6d5e-0f12-4e97-80e8-87b0a755b791" />
 
 ## 📸 Screenshots
+  # CloudFormation-Complete
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/58eb2efa-5fd1-462b-a6b3-a7650f775931" />
 
+  # NAT-Gateway
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/499edfdf-5771-4734-8805-2f6ce61083bf" />
-
+  #
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3a48abf4-07ba-45b6-bdda-03d0253e3740" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/14612446-2ee9-4192-88c8-665047e620a1" />
