@@ -88,46 +88,64 @@ aws cloudformation create-stack \
 
   # NAT-Gateway
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/499edfdf-5771-4734-8805-2f6ce61083bf" />
-  #
+
+  # Route-Table_with-Nat-Gateway
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3a48abf4-07ba-45b6-bdda-03d0253e3740" />
 
+  # Copying-.Pem file to public Ec2
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/14612446-2ee9-4192-88c8-665047e620a1" />
 
+  # Connecting to private Ec2 via Public Ec2 using SSH
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/efd2f391-61ad-4593-bcab-e88dc4d49b85" />
 
+  # Creating Database in DB-Ec2 
 <img width="1590" height="433" alt="Image" src="https://github.com/user-attachments/assets/58edd0a8-c69d-4122-bcec-3e9edffc8226" />
 
+  # Creating the Schema Table in DB-Ec2
 <img width="610" height="948" alt="Image" src="https://github.com/user-attachments/assets/bdeb1b78-ba12-4d78-b0c1-757466b0c41d" />
 
+  # Giving the Schema to the SQL Database
 <img width="945" height="499" alt="Image" src="https://github.com/user-attachments/assets/b00a2832-db9f-4255-a263-aad4afc1154a" />
 
+  # Git-Cloning the repository
 <img width="1243" height="907" alt="Image" src="https://github.com/user-attachments/assets/0fc284cf-5d9c-42c1-a852-5164defa7230" />
 
+  # Changing the RDS- Endpoint in the code
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b225fe22-1221-4d56-9c0e-0efd2c13427b" />
 
+  # Installing the Tomcat in EC2
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c3cc1e18-8e1f-4d66-ad0a-105456d34e33" />
 
+  # Starting the Tomcat in EC2
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6955e6c9-f766-4a25-979d-c61791f69f42" />
 
+  # Launching the Webpage
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6aaed846-17bd-4b82-bfbf-6fc2333a26b0" />
 
+  # User Registration Page
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1b4bbdd1-6dc7-4523-b1f9-3af0a3cfa174" />
 
+  # The stored User Registred Values in the RDS
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9d21c55a-c798-4542-a78c-4151cede0344" />
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a8a85d4b-d6cf-4f70-abac-6d26dbe93fa6" />
-
+  # Relational_Data_Base
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5e34197a-3539-448b-8607-628d2b587458" />
 
+  # VPC
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4e0b8384-7270-4757-afec-927bbcd7a02f" />
 
+  # Public-Subnet
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b11bf185-d919-48a7-9869-d3571db50c53" />
 
+  # Private-Subnet
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ca66b389-6284-4fdb-b16f-7320b6def348" />
 
+  # Public-Route Table linked to Public-Subnet
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6914150f-f2ea-46b5-a17b-b7895f80a93f" />
 
+  # Private-Route Table linked to Private-Subnet
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/da58a7e6-2d2a-4792-ae54-1430791346d9" />
 
+  # Internet Gateway
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4dca83b1-a4ee-49e0-bd62-457c5c508a0d" />
 
